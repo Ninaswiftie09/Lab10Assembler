@@ -4,6 +4,7 @@
 //Laboratorio 10, parte 1
 //Org. de computadoras y assembler
 //Nina Nájera - 231088
+//Mishell Ciprian - 231169
 
 //------------------------------------------------------------------------------
 
@@ -30,7 +31,7 @@
 .equ	LED5_ON, (1 << 5) //dar valor al pin que se usará como salida
 .equ	GPIOA_ODR,		(GPIOA_BASE + GPIOA_ODR_OFFSET)
 
-.equ DELAY_COUNT, 3000000 // Aproximadamente 3 segundos de retraso
+.equ DELAY_COUNT, 10000000 // Aproximadamente 3 segundos de retraso
 
 .syntax unified
 .cpu cortex-m4
